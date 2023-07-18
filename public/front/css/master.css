@@ -1,0 +1,42 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:  Autlines
+Version:  1.0
+Assigned to:  WebNic
+Primary use:  Autlines
+-------------------------------------------------------------------*/
+
+
+/* FONTS*/
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,500,600,700';
+@import 'all.min.css';
+@import 'style_1.css';
+@import 'style.css';
+@import 'pe-icon-7-stroke.css';
+@import 'simple-line-icons.css';
+@import 'flaticon.css';
+
+
+
+/* PLUGIN CSS */
+
+@import 'bootstrap.css';                /* bootstrap */
+@import 'header.css';                /* header */
+@import 'yamm.css';                /* header */
+@import 'slider-pro.css';         /* main slider */
+@import 'slick.css';         /* sliders */
+@import 'slick-theme.css';         /* sliders */
+@import 'magnific-popup.css';            /* modal */
+@import 'animate.css';                        /* animations */
+@import 'playful.css';          /* video-player */
+@import 'nouislider.css';          /* slider number */
+@import 'bootstrap-select.min.css';                /* bootstrap-select */
+
+
+
+/* MAIN CSS */
+
+@import 'main.css';
+@import 'color.css';
+@import 'responsive.css';

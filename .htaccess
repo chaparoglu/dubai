@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteRule ^$ public/index.php [L]
+
+    RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+
+    RedirectMatch 301 /kurslar/frontend-proqramlasdirma-kursu /tedris-sahesi/frontend-proqramlasdirma-kursu
+    RedirectMatch 301 /kurslar/backend-proqramlasdirma-kursu /tedris-sahesi/backend-proqramlasdirma-kursu-c-ile
+
+</IfModule>
+
